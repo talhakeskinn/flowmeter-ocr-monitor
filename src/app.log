@@ -2648,3 +2648,62 @@
 2025-10-19 12:06:26,838 | INFO | collector | Kayıt dosyası: C:\Users\Talha Keskin\Documents\Projects\Bigbang\src\readings.txt
 2025-10-19 12:06:30,165 | INFO | collector | Kamera açıldı: index=0
 2025-10-19 12:46:23,876 | INFO | collector | Collector kapandı.
+2025-10-19 17:09:31,632 | WARNING | collector | Tesseract EXE bulunamadı (settings.TESSERACT_EXE). Kurulu değilse yükleyin veya yolu düzeltin.
+2025-10-19 17:09:31,939 | INFO | collector | Kayıt dosyası: /home/tk/Documents/Projects/flowmeter-ocr-monitor/src/readings.txt
+2025-10-19 17:09:32,123 | INFO | collector | Kamera açıldı: index=0
+2025-10-19 17:13:25,980 | INFO | collector | Collector kapandı.
+2025-10-19 17:15:10,692 | WARNING | collector | Tesseract EXE bulunamadı (settings.TESSERACT_EXE). Kurulu değilse yükleyin veya yolu düzeltin.
+2025-10-19 17:15:10,795 | INFO | collector | Kayıt dosyası: /home/tk/Documents/Projects/flowmeter-ocr-monitor/src/readings.txt
+2025-10-19 17:15:10,980 | INFO | collector | Kamera açıldı: index=0
+2025-10-19 17:15:30,558 | INFO | collector | Collector kapandı.
+2025-10-19 17:16:51,535 | WARNING | collector | Tesseract EXE bulunamadı (settings.TESSERACT_EXE). Kurulu değilse yükleyin veya yolu düzeltin.
+2025-10-19 17:16:51,636 | INFO | collector | Kayıt dosyası: /home/tk/Documents/Projects/flowmeter-ocr-monitor/src/readings.txt
+2025-10-19 17:16:51,821 | INFO | collector | Kamera açıldı: index=0
+2025-10-19 17:17:01,070 | INFO | collector | Collector kapandı.
+2025-10-20 07:56:01,659 | INFO | collector | Tesseract path set: /usr/bin/tesseract
+2025-10-20 07:56:02,005 | INFO | collector | Kayıt dosyası: /home/tk/Documents/Projects/flowmeter-ocr-monitor/src/readings.txt
+2025-10-20 07:56:02,202 | INFO | collector | Kamera açıldı: index=0
+2025-10-20 07:56:27,116 | INFO | collector | Collector kapandı.
+2025-10-20 09:32:38,150 | INFO | collector | Tesseract path set: /usr/bin/tesseract
+2025-10-20 09:32:38,246 | INFO | collector | Kayıt dosyası: /home/tk/Documents/Projects/flowmeter-ocr-monitor/src/readings.txt
+2025-10-20 09:32:38,427 | INFO | collector | Kamera açıldı: index=0
+2025-10-20 09:36:07,255 | INFO | collector | Collector kapandı.
+2025-10-20 11:22:38,489 | INFO | collector | Tesseract path set: /usr/bin/tesseract
+2025-10-20 11:22:38,839 | INFO | collector | Kayıt dosyası: /home/tk/Documents/Projects/flowmeter-ocr-monitor/src/readings.txt
+2025-10-20 11:22:39,020 | INFO | collector | Kamera açıldı: index=0
+2025-10-20 11:22:45,245 | INFO | collector | Collector kapandı.
+2025-10-20 11:25:44,242 | INFO | collector | Tesseract path set: /usr/bin/tesseract
+2025-10-20 11:25:44,338 | INFO | collector | Kayıt dosyası: /home/tk/Documents/Projects/flowmeter-ocr-monitor/src/readings.txt
+2025-10-20 11:25:57,187 | INFO | collector | Tesseract path set: /usr/bin/tesseract
+2025-10-20 11:25:57,288 | INFO | collector | Kayıt dosyası: /home/tk/Documents/Projects/flowmeter-ocr-monitor/src/readings.txt
+2025-10-20 11:30:52,559 | INFO | collector | Tesseract path set: /usr/bin/tesseract
+2025-10-20 11:30:52,671 | INFO | collector | Kayıt dosyası: /home/tk/Documents/Projects/flowmeter-ocr-monitor/src/readings.txt
+2025-10-20 11:31:12,676 | INFO | collector | Tesseract path set: /usr/bin/tesseract
+2025-10-20 11:31:12,777 | INFO | collector | Kayıt dosyası: /home/tk/Documents/Projects/flowmeter-ocr-monitor/src/readings.txt
+2025-10-20 11:31:12,964 | INFO | collector | Kamera açıldı: index=1
+2025-10-20 11:31:23,261 | INFO | collector | Collector kapandı.
+2025-10-20 11:45:14,708 | INFO | collector | Tesseract path set: /usr/bin/tesseract
+2025-10-20 11:45:14,813 | INFO | collector | Kayıt dosyası: /home/tk/Documents/Projects/flowmeter-ocr-monitor/src/readings.txt
+2025-10-20 11:45:15,000 | INFO | collector | Kamera açıldı: index=1
+2025-10-20 11:45:30,386 | INFO | collector | Kullanıcı durdurdu (Ctrl+C).
+2025-10-20 11:45:30,417 | INFO | collector | Collector kapandı.
+2025-10-20 11:46:11,861 | INFO | collector | Tesseract path set: /usr/bin/tesseract
+2025-10-20 11:46:11,963 | INFO | collector | Kayıt dosyası: /home/tk/Documents/Projects/flowmeter-ocr-monitor/src/readings.txt
+2025-10-20 11:46:11,964 | INFO | collector | Kamera açıldı: index=0
+2025-10-20 11:47:01,797 | INFO | collector | Collector kapandı.
+2025-10-20 11:47:10,299 | INFO | collector | Tesseract path set: /usr/bin/tesseract
+2025-10-20 11:47:10,401 | INFO | collector | Kayıt dosyası: /home/tk/Documents/Projects/flowmeter-ocr-monitor/src/readings.txt
+2025-10-20 11:47:10,402 | INFO | collector | Kamera açıldı: index=0
+2025-10-20 11:50:09,254 | INFO | collector | Collector kapandı.
+2025-10-20 15:47:08,449 | INFO | collector | Tesseract path set: /usr/bin/tesseract
+2025-10-20 15:47:08,613 | INFO | collector | Kayıt dosyası: /home/tk/Documents/Projects/flowmeter-ocr-monitor/src/readings.txt
+2025-10-20 15:47:08,615 | INFO | collector | Kamera açıldı: index=0
+2025-10-20 15:47:15,545 | INFO | collector | Collector kapandı.
+2025-10-20 15:47:31,662 | INFO | collector | Tesseract path set: /usr/bin/tesseract
+2025-10-20 15:47:31,831 | INFO | collector | Kayıt dosyası: /home/tk/Documents/Projects/flowmeter-ocr-monitor/src/readings.txt
+2025-10-20 15:47:31,832 | INFO | collector | Kamera açıldı: index=0
+2025-10-20 15:47:38,743 | INFO | collector | Collector kapandı.
+2025-10-20 15:49:12,585 | INFO | collector | Tesseract path set: /usr/bin/tesseract
+2025-10-20 15:49:12,750 | INFO | collector | Kayıt dosyası: /home/tk/Documents/Projects/flowmeter-ocr-monitor/src/readings.txt
+2025-10-20 15:49:12,936 | INFO | collector | Kamera açıldı: index=1
+2025-10-20 15:49:21,299 | INFO | collector | Collector kapandı.

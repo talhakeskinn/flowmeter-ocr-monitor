@@ -2,6 +2,7 @@ import os
 import re
 import time
 import logging
+import shutil
 from datetime import datetime
 from pathlib import Path
 
@@ -11,7 +12,7 @@ import pytesseract
 
 from settings import (
     READINGS_TXT, LOG_FILE, TESSERACT_EXE,
-    SAMPLE_PERIOD_SEC
+    SAMPLE_PERIOD_SEC, CAMERA_INDEX_CANDIDATES
 )
 
 # ---------- Logging ----------
@@ -29,13 +30,29 @@ log = logging.getLogger("collector")
 
 # ---------- OCR helpers ----------
 def ensure_tesseract_path():
-    # Windows'ta path gerekli ise:
-    if TESSERACT_EXE and Path(TESSERACT_EXE).exists():
-        pytesseract.pytesseract.tesseract_cmd = TESSERACT_EXE
-        log.info("Tesseract path set: %s", TESSERACT_EXE)
+    if os.name == "nt":
+        if TESSERACT_EXE and Path(TESSERACT_EXE).exists():
+            pytesseract.pytesseract.tesseract_cmd = TESSERACT_EXE
+            log.info("Tesseract path set (Windows): %s", TESSERACT_EXE)
+        else:
+            raise SystemExit(
+                "Windows ortamında Tesseract yolunu bulamadım. "
+                "settings.TESSERACT_EXE değerini kurulum yoluyla güncelleyin."
+            )
     else:
-        log.warning("Tesseract EXE bulunamadı (settings.TESSERACT_EXE). "
-                    "Kurulu değilse yükleyin veya yolu düzeltin.")
+        if TESSERACT_EXE and Path(TESSERACT_EXE).exists():
+            pytesseract.pytesseract.tesseract_cmd = TESSERACT_EXE
+            log.info("Tesseract path set: %s", TESSERACT_EXE)
+        else:
+            system_cmd = shutil.which("tesseract")
+            if system_cmd:
+                pytesseract.pytesseract.tesseract_cmd = system_cmd
+                log.info("Tesseract PATH üzerinden bulundu: %s", system_cmd)
+            else:
+                raise SystemExit(
+                    "Linux ortamında Tesseract bulunamadı. 'sudo apt install tesseract-ocr' "
+                    "komutuyla kurulum yapın veya settings.TESSERACT_EXE yolunu güncelleyin."
+                )
 
 def preprocess_for_digits(img_bgr: np.ndarray) -> np.ndarray:
     gray = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2GRAY)
@@ -97,7 +114,7 @@ def main():
     log.info("Kayıt dosyası: %s", READINGS_TXT)
 
     # Kamera açma (retry ile)
-    cam_index_candidates = [0, 1, 2]
+    cam_index_candidates = CAMERA_INDEX_CANDIDATES
     cap = None
     for idx in cam_index_candidates:
         cap_try = cv2.VideoCapture(idx)

@@ -43,3 +43,79 @@ For `use_container_width=True`, use `width='stretch'`. For `use_container_width=
   Local URL: http://localhost:8501
   Network URL: http://192.168.1.19:8501
 
+
+      👋 Welcome to Streamlit!
+
+      If you'd like to receive helpful onboarding emails, news, offers, promotions,
+      and the occasional swag, please enter your email address below. Otherwise,
+      leave this field blank.
+
+      Email:  2025-10-19 17:09:32.112 [Errno 5] Input/output error
+
+      👋 Welcome to Streamlit!
+
+      If you'd like to receive helpful onboarding emails, news, offers, promotions,
+      and the occasional swag, please enter your email address below. Otherwise,
+      leave this field blank.
+
+      Email:  2025-10-19 17:15:11.200 [Errno 5] Input/output error
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.19:8501
+
+/usr/bin/python3: No module named streamlit
+/usr/bin/python3: No module named streamlit
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.20.10.4:8501
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8502
+  Network URL: http://172.20.10.5:8502
+
+  Stopping...
+  Stopping...
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.20.10.5:8501
+
+/usr/bin/python3: No module named streamlit
+/usr/bin/python3: No module named streamlit
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8502
+  Network URL: http://172.20.10.5:8502
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8503
+  Network URL: http://172.20.10.5:8503
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8504
+  Network URL: http://172.20.10.4:8504
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8505
+  Network URL: http://172.20.10.4:8505
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8506
+  Network URL: http://172.20.10.4:8506
+
