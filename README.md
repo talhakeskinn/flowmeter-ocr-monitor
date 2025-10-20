@@ -1,4 +1,4 @@
-# Bigbang OCR İzleme Paketi
+# OCR İzleme Paketi
 
 Bu proje, canlı bir kamera akışından sayısal veriler toplar, Tesseract kullanarak OCR işlemi gerçekleştirir, elde edilen değerleri toplar ve sonuçları bir Streamlit panosu aracılığıyla sunar.
 Windows ve Linux üzerinde test edilmiştir; görüntü yakalama ile ön işleme adımlarında OpenCV kullanır.
