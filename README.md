@@ -31,7 +31,8 @@ venv/                 # İsteğe bağlı sanal ortam klasörü
 ## 🧩 Gereksinimler
 1. Python 3.10+ (proje Python 3.12 ile test edilmiştir).
 2. Tesseract OCR kurulumu:
-   - **Windows:** `src/settings.py` dosyasındaki varsayılan yol `C:\Program Files\Tesseract-OCR\tesseract.exe` şeklindedir. Kurulum farklı bir dizindeyse bu değeri güncelleyin. Örnek:
+   - **Windows:** Tesseract kurulum dosyası proje klasörünün içinde verilmiştir.
+`src/settings.py` dosyasındaki varsayılan yol `C:\Program Files\Tesseract-OCR\tesseract.exe` şeklindedir. Kurulum farklı bir dizindeyse bu değeri güncelleyin. Örnek:
      ```
      TESSERACT_EXE = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
      ```
