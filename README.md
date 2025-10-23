@@ -97,13 +97,7 @@ python proccessor_txt.py  # Linux'ta python yerine python3 kullanın.
 cd src
 streamlit run dashboard_txt.py
 ```
-- Varsayılan sayfa başlığı: `dys OCR Dashboard`
-- Kenar çubuğu kontrolleri:
-  - Canlı veri penceresi boyutu
-  - Eşik alarmı
-  - Tablo görünümü seçenekleri
-  - Otomatik yenileme (gerektirir `streamlit-autorefresh`)
-- Sekmeler: Canlı veriler, dakikalık ve saatlik özetler (CSV indirme butonları dahil)
+- Streamlit ilk çalıştırıldığında terminalde bir e-posta doğrulaması ister. Bu adımı atlamamak için kurulumdan hemen sonra önce `streamlit run dashboard_txt.py` komutunu terminalde çalıştırın ve isteme örnek olarak `deneme@mail.com` yazın. Tek seferlik bu doğrulama tamamlandıktan sonra `python launcher.py start` komutu panoyu sorunsuz biçimde başlatır.
 
 ### Kamera İndekslerini Tespit Etme
 Sistemdeki kameraların hangi indekslerde olduğunu öğrenmek için yardımcı betiği kullanın:
