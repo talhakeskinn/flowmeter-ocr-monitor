@@ -53,7 +53,6 @@ venv/                 # İsteğe bağlı sanal ortam klasörü
 ## 💻 Kurulum Adımları
 ### Windows
 ```powershell
-cd C:\Users\Talha Keskin\Documents\Projects\Bigbang
 python -m venv venv
 .\venv\Scripts\activate
 pip install --upgrade pip
@@ -63,8 +62,6 @@ pip install numpy pandas streamlit streamlit-autorefresh
 ```
 
 ### Linux
-```bash
-cd ~/Documents/Projects/Bigbang
 python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip
